@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
               Flag.fromCode(
-                FlagsCode.KI,
+                FlagsCode.BR,
                 height: 100,
               ),
               Flag.fromCode(
@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 fit: BoxFit.fill,
               ),
               Flag.fromCode(
-                FlagsCode.AD,
+                FlagsCode.NZ,
                 height: 50,
                 width: 50,
                 fit: BoxFit.fill,

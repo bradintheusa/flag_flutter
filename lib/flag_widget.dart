@@ -119,6 +119,7 @@ class Flag extends StatelessWidget {
       height: height,
       child: SvgPicture.asset(
         assetName,
+        key: UniqueKey(),
         semanticsLabel: country,
         fit: fit,
       ),
